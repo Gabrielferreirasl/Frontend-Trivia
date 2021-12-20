@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import store from './store';
 
 ReactDOM.render(
-  <Provider store={ store } basename={ process.env.PUBLIC_URL }>
+  <Provider store={ store } basename="/React">
     <BrowserRouter>
       <App />
     </BrowserRouter>
